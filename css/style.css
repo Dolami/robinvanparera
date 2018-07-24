@@ -445,9 +445,9 @@ input[type=submit]:hover {
     background-color: #8F8B8B;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .main {
-        height: 1000px;
+        height: 1250px;
     }
 
     .mac_logo {
