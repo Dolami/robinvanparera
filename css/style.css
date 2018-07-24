@@ -445,7 +445,7 @@ input[type=submit]:hover {
     background-color: #8F8B8B;
 }
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-width: 700px) {
     .main {
         height: 1000px;
     }
@@ -530,7 +530,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-width: 450px) {
 
     .home-nav {
         display: none;
@@ -584,7 +584,7 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-device-width: 360px) {
+@media only screen and (max-width: 360px) {
     nav ul {
         display: none;
     }
@@ -686,3 +686,4 @@ input[type=submit]:hover {
         height: 10vh;
     }
 }
+
