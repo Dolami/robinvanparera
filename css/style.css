@@ -616,16 +616,20 @@ input[type=submit]:hover {
         display: none;
     }
 
+    .main {
+        height: 600px;
+    }
+
     .portfolio {
-        margin: 0 40px;
+        height: 100vh;
     }
 
     .portfolio_container {
-        height: 30vh;
+        height: 25vh;
     }
     
     .portfolio_container img {
-        height: 30vh;
+        height: 25vh;
     }
 
     .portfolio-text p {
@@ -639,50 +643,6 @@ input[type=submit]:hover {
     .footer-logo svg {
         height: 12vh;
     }
-}
-
-@media only screen and (max-height: 325px) {
-    .footer {
-        height: 325px;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-height: 280px) {
-    .portfolio {
-        height: 250px;
-    }
-
-    .portfolio_container {
-        height: 40vh;
-    }
-    
-    .portfolio_container img {
-        height: 40vh;
-    }
-    
-    .footer-right h2 {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 700px) and (max-height: 450px) {
-    .portfolio {
-        margin: 0 40px
-    }
-
-    .portfolio_container {
-        height: 20vh;
-    }
-    
-    .portfolio_container img {
-        height: 20vh;
-    }
-
-    .portfolio-text p {
-        font-size: 0;
-    }
-
 }
 
 @media only screen and (max-width: 300px) and (max-height: 450px) {
