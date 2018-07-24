@@ -178,6 +178,10 @@ header {
     width: auto;
 }
 
+.mac_logo {
+    margin-top: 20px;
+}
+
 .mac_logo img {
     height: 50vh;
     width: 80vw;
@@ -451,7 +455,7 @@ input[type=submit]:hover {
     }
 
     .mac_logo {
-        margin: 20px 0 30px 0;
+        margin-bottom: 30px;
     }
     
     .mac_text {
@@ -671,6 +675,12 @@ input[type=submit]:hover {
 
     .footer-logo svg {
         height: 10vh;
+    }
+}
+
+@media only screen and (max-height: 450px) and (min-width: 700px) {
+    .main {
+        height: 400px;
     }
 }
 
