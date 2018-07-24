@@ -445,7 +445,7 @@ input[type=submit]:hover {
     background-color: #8F8B8B;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-device-width: 700px) {
     .main {
         height: 1000px;
     }
@@ -530,7 +530,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-device-width: 450px) {
 
     .home-nav {
         display: none;
@@ -584,7 +584,7 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-device-width: 360px) {
     nav ul {
         display: none;
     }
@@ -684,86 +684,5 @@ input[type=submit]:hover {
 
     .footer-logo svg {
         height: 10vh;
-    }
-}
-
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-    .main {
-        height: 1000px;
-    }
-
-    .mac_logo {
-        margin: 20px 0;
-    }
-    
-    .mac_text {
-        flex-direction: column;
-    }
-
-    .text_container {
-        width: 70vw;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .text_container h2 {
-        font-size: 8vw;
-        text-align: center;
-        margin-bottom: 5px;
-    }
-    
-    .text_container p {
-        font-size: 3vw;
-        margin: 0;
-    }
-
-     .footer {
-        height: 100vh;
-        flex-direction: column;
-    }
-
-    .footer-left {
-        width: 70vw;
-    }
-
-    .footer-right {
-        margin-right: 20px;
-        width: 70vw;
-    }
-    
-    .text_container p {
-        font-size: 3.5vw;
-    }
-
-    .portfolio_container {
-        height: 30vw;
-    }
-    
-    .portfolio_container img {
-        height: 30vw;
-    }
-
-    .portfolio-totaal {
-        width: 80vw;
-    }
-
-    .portfolio-large {
-        width: 80vw;
-    }
-
-    .portfolio-vierkant {
-        width: 80vw;
-    }
-
-    .portfolio-vierkantlarge {
-        width: 80vw;
-    }
-
-    .portfolio-lang {
-        width: 65vw;
-    }
-
-    .portfolio-langlarge {
-        width: 65vw;
     }
 }
