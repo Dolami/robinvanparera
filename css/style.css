@@ -447,7 +447,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 800px) {
     .main {
-        height: 1250px;
+        height: 1000px;
     }
 
     .mac_logo {
@@ -538,6 +538,14 @@ input[type=submit]:hover {
 
     nav {
         justify-content: space-between;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .mac_logo {
+        display: none;
     }
 
     .text_container p {
