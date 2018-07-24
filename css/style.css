@@ -445,7 +445,7 @@ input[type=submit]:hover {
     background-color: #8F8B8B;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .main {
         height: 1250px;
     }
@@ -473,10 +473,6 @@ input[type=submit]:hover {
     .text_container p {
         font-size: 3vw;
         margin: 0;
-    }
-
-    .portfolio-text p {
-        font-size: 0;
     }
 
     .portfolio-text {
@@ -513,6 +509,10 @@ input[type=submit]:hover {
 
     .portfolio-langlarge {
         width: 40vw;
+    }
+
+    .portfolio-text p {
+        font-size: 0;
     }
 
     .footer {
