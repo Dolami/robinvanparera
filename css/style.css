@@ -686,3 +686,48 @@ input[type=submit]:hover {
         height: 10vh;
     }
 }
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .text_container p {
+        font-size: 3.5vw;
+    }
+
+    .portfolio_container {
+        height: 30vw;
+    }
+    
+    .portfolio_container img {
+        height: 30vw;
+    }
+
+    .portfolio-totaal {
+        width: 80vw;
+    }
+
+    .portfolio-large {
+        width: 80vw;
+    }
+
+    .portfolio-vierkant {
+        width: 80vw;
+    }
+
+    .portfolio-vierkantlarge {
+        width: 80vw;
+    }
+
+    .portfolio-lang {
+        width: 65vw;
+    }
+
+    .portfolio-langlarge {
+        width: 65vw;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        margin-right: 20px;
+        width: 70vw;
+    }
+
+}
