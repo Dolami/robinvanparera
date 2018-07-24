@@ -606,8 +606,23 @@ input[type=submit]:hover {
     .footer {
         height: 100vh;
     }   
+    
     .portfolio {
         height: 600px;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .footer-img {
+        display: none;
+    }
+
+    .footer-logo {
+        margin-left: 20px;
+    }
+    
+    .footer-logo svg {
+        height: 12vh;
     }
 }
 
@@ -636,14 +651,6 @@ input[type=submit]:hover {
     .portfolio-text p {
         font-size: 0;
     }
-
-    .footer-img {
-        display: none;
-    }
-
-    .footer-logo svg {
-        height: 12vh;
-    }
 }
 
 @media only screen and (max-height: 325px) {
@@ -657,6 +664,16 @@ input[type=submit]:hover {
     
     .footer-right h2 {
         display: none;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-width: 700px) {
+    .footer {
+        height: 400px;
+    }
+
+    .footer-img img {
+        height: 35vh;
     }
 }
 
