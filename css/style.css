@@ -609,6 +609,36 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-height: 600px) {
+    .portfolio-totaal {
+        width: 40vw;
+    }
+
+    .portfolio-large {
+        width: 40vw;
+    }
+
+    .portfolio-vierkant {
+        width: 20vw;
+    }
+
+    .portfolio-vierkantlarge {
+        width: 20vw;
+    }
+
+    .portfolio-lang {
+        width: 15vw;
+    }
+
+    .portfolio-langlarge {
+        width: 15vw;
+    }
+
+    .portfolio-text p {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 600px) {
     .footer {
         height: 100vh;
     }   
