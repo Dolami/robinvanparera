@@ -687,3 +687,88 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    .main {
+        height: 1250px;
+    }
+
+    .mac_logo {
+        margin: 20px 0;
+    }
+    
+    .mac_text {
+        flex-direction: column;
+    }
+
+    .text_container {
+        width: 70vw;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .text_container h2 {
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .text_container p {
+        font-size: 3vw;
+        margin: 0;
+    }
+
+    .portfolio-text p {
+        font-size: 0;
+    }
+
+    .portfolio-text {
+        padding-bottom: 0px;
+    }
+
+    .portfolio-logo img {
+        width: 6vw;
+    }
+
+    .portfolio-logo .arnold-logo {
+        width: 4.30vw;
+    }
+
+    .portfolio_container {
+        height: 20vw;
+    }
+    
+    .portfolio_container img {
+        height: 20vw;
+    }
+
+    .portfolio-vierkant {
+        width: 50vw;
+    }
+
+    .portfolio-vierkantlarge {
+        width: 50vw;
+    }
+
+    .portfolio-lang {
+        width: 40vw;
+    }
+
+    .portfolio-langlarge {
+        width: 40vw;
+    }
+
+    .footer {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        width: 70vw;
+    }
+
+    .footer-right {
+        margin-right: 20px;
+        width: 70vw;
+    }
+}
+
