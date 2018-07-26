@@ -398,7 +398,7 @@ header {
 }
 
 .footer svg:hover path {
-    fill: #453D3D;
+    fill: #55351C;
     transition: 150ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 150ms;
@@ -435,7 +435,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #453D3D;
+    background-color: #55351C;
     color: white;
     padding: 6px 10px;
     margin-top: 2.5px;
@@ -495,14 +495,6 @@ input[type=submit]:hover {
 
     .portfolio-logo .arnold-logo {
         width: 2.8vw;
-    }
-
-    .portfolio_container {
-        height: 20vw;
-    }
-    
-    .portfolio_container img {
-        height: 20vw;
     }
 
     .portfolio-vierkant {
