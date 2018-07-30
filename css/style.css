@@ -709,10 +709,6 @@ input[type=submit]:hover {
     .portfolio_container img {
         height: 15vh;
     }
-
-    .footer-logo svg {
-        height: 10vh;
-    }
 }
 
 @media only screen and (max-height: 450px) and (min-width: 700px) {
