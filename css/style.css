@@ -163,11 +163,13 @@ header {
     width: auto;
 }
 
+/*
 .logo_header h1 {
-    margin-top: 1.5vh;
-    font-size: 5vh;
-    color: white;
+    margin-top: 1vh;
+    font-size: 6.25vh;
+    color: #fff
 }
+*/
 
 .main {
     display: flex;
@@ -183,7 +185,7 @@ header {
 }
 
 .mac_logo img {
-    height: 50vh;
+    height: 45vh;
     width: 80vw;
     align-self: center;
     margin-bottom: 20px;
@@ -196,7 +198,8 @@ header {
 }
 
 .text_container {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
     width: 20vw;
     margin: 0 1.5625vw;
     cursor: pointer;
@@ -210,7 +213,7 @@ header {
 }
 
 .text_container p {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     margin-top: 20px;
 }
 
@@ -451,7 +454,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 900px) {
     .text_container p {
-        font-size: 1.75vw;
+        font-size: 1.8vw;
     }
 }
 
@@ -483,6 +486,14 @@ input[type=submit]:hover {
     .text_container p {
         font-size: 3vw;
         margin: 0;
+    }
+
+    .portfolio_container {
+        height: 20vw;
+    }
+    
+    .portfolio_container img {
+        height: 20vw;
     }
 
     .portfolio-text {
@@ -551,7 +562,7 @@ input[type=submit]:hover {
     }
 
     .text_container p {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .portfolio_container {
@@ -663,6 +674,12 @@ input[type=submit]:hover {
     
     .footer-right h2 {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 450px) and (min-height: 800px) {
+    .main {
+        height: 1100px;
     }
 }
 
