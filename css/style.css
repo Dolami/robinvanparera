@@ -163,13 +163,13 @@ header {
     width: auto;
 }
 
-/*
 .logo_header h1 {
     margin-top: 1vh;
-    font-size: 6.25vh;
-    color: #fff
+    font-size: 4.5vh;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 4px #000000;
 }
-*/
 
 .main {
     display: flex;
@@ -632,7 +632,7 @@ input[type=submit]:hover {
     }
     
     .footer-logo svg {
-        height: 12vh;
+        height: 8vh;
     }
 }
 
@@ -681,6 +681,10 @@ input[type=submit]:hover {
     .main {
         height: 1100px;
     }
+}
+
+@media only screen and (max-height: 500px) and (min-width: 700px) {
+
 }
 
 @media only screen and (max-height: 600px) and (min-width: 700px) {
@@ -732,7 +736,7 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-height: 400px) and (min-width: 1550px) {
+@media only screen and (max-height: 400px) and (min-width: 1350px) {
     .portfolio_container {
         height: 7vw;
     }
